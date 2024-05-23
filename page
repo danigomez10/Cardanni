@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardanni.co - Panadería Artesanal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #d4a373;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #8d5524;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        .bio {
+            margin: 20px 0;
+        }
+        footer {
+            background-color: #d4a373;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .social-links a {
+            margin: 0 10px;
+            color: #8d5524;
+            text-decoration: none;
+        }
+        .social-links img {
+            width: 24px;
+            height: 24px;
+            vertical-align: middle;
+        }
+        .contact-form {
+            margin: 20px 0;
+        }
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            padding: 10px 20px;
+            background-color: #8d5524;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #5f3c1a;
+        }
+        .cart {
+            margin: 20px 0;
+        }
+        .cart button {
+            padding: 10px 20px;
+            background-color: #8d5524;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .cart button:hover {
+            background-color: #5f3c1a;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cardanni.co</h1>
+        <p>Panadería Artesanal</p>
+    </header>
+    <nav>
+        <a href="#bio">Biografía</a>
+        <a href="#contact">Contacto</a>
+        <a href="#cart">Carrito de Compra</a>
+    </nav>
+    <main>
+        <section id="bio" class="bio">
+            <h2>Biografía</h2>
+            <p>Bienvenidos a Cardanni.co, tu panadería artesanal favorita. Elaboramos productos de panadería con ingredientes frescos y naturales, siguiendo recetas tradicionales y con mucho amor.</p>
+        </section>
+        <section id="contact" class="contact-form">
+            <h2>Contacto</h2>
+            <form>
+                <input type="text" name="name" placeholder="Tu nombre" required>
+                <input type="email" name="email" placeholder="Tu correo electrónico" required>
+                <textarea name="message" rows="5" placeholder="Tu mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        <section id="cart" class="cart">
+            <h2>Carrito de Compra</h2>
+            <button>Ver Carrito</button>
+        </section>
+    </main>
+    <footer>
+        <div class="social-links">
+            <a href="https://facebook.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook"></a>
+            <a href="https://instagram.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram"></a>
+            <a href="https://twitter.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/en/6/60/Twitter_Logo_as_of_2021.svg" alt="Twitter"></a>
+        </div>
+        <p>&copy; 2024 Cardanni.co. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
